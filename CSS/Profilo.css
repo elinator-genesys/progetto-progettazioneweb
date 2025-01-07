@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    background-image: url('../IMG/sfondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+}
+
+#indice{
+    background-color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+    padding: 1em;
+    width: 15%;
+    height: 17em;
+    margin-left: 20%;
+    margin-right: 2%;
+    border: solid black 2px;
+}
+
+ul{
+    padding-left: 1px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 18%;
+}
+
+#profilo{
+    background-color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+    padding: 1em;
+    border: solid black 2px;
+}
+
+.r{
+    display: table-row;
+    width: 100%;
+}
+
+.r input, label, select{
+    display: table-cell;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(146, 174, 226);
+    border: solid black 1px;
+}
+
+td{
+    text-align: center;
+    border: solid black 1px;
+    background-color: white;
+}
+
+button{
+    margin-right: 1em;
+}

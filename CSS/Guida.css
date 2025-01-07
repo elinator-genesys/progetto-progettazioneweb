@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    background-image: url('../IMG/sfondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#guida{
+    background-color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+    padding: 1em;
+    border: solid black 2px;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}

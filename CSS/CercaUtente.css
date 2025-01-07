@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    background-image: url('../IMG/sfondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+    display: flex;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+#indice{
+    background-color: rgba(255, 255, 255, 0.75); /* Utilizza un colore con trasparenza (RGBA) */
+    opacity: 1;
+    padding: 1em;
+    width: 14%;
+    height: 17em;
+    margin-right: 2%;
+    margin-left: 25%;
+    border: solid black 2px;
+}
+
+ul{
+    padding-left: 1px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 1em;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cercaUtente{
+    background-color: rgba(255, 255, 255, 0.75); /* Utilizza un colore con trasparenza (RGBA) */
+    opacity: 1;
+    padding: 1em;
+    width: 34%;
+    height: 100%;
+    margin-right: 25%;
+    border: solid black 2px;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.r{
+    display: table-row;
+}
+
+.r input, label, select{
+    display: table-cell;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+#filtri{
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(146, 174, 226);
+    border: solid black 1px;
+}
+
+td{
+    background-color: white;
+    text-align: center;
+    border: solid black 1px;
+}
+
+button{
+    margin-top: 1em;
+}

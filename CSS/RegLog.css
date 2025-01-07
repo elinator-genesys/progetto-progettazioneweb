@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, serif;
+    background-image: url('../IMG/sfondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+#registrazione{
+    background-color: rgba(255, 255, 255, 0.75); 
+    opacity: 1;
+    padding: 1em;
+    height: 56%;
+    margin-bottom: 2%;
+    border: solid black 2px;
+}
+
+#login{
+    background-color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+    padding: 1em;
+    height: 33%;
+    border: solid black 2px;
+}
+
+.r{
+    display: table-row;
+}
+
+.r input, label, select, h3{
+    display: table-cell;
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
+
+h3{
+    padding-bottom: 1em;
+}
+
+p{
+    font-size: large;
+    color: black;
+    margin-top: 5px;
+}
+
+#controlloPassword, #controlloNomeCognome{
+    font-size: small;
+}
+
+#controlloNomeCognome{
+    margin-top: 5px;
+}

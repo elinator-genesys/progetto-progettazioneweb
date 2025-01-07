@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    background-image: url('../IMG/sfondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+h1, h3{
+    color: black;
+    text-align: center;
+}
+
+#up{
+    display: flex;
+    padding: 1em;
+}
+
+#mid{
+    display: flex;
+    padding: 1em; 
+}
+
+#down{
+    display: flex;
+    padding: 1em;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5); 
+    opacity: 1;
+    width: 15%;
+    height: 150px;
+    margin-left: 33%;
+    margin-right: 4%;
+    border: solid black 2px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    width: 15%;
+    height: 150px;
+    margin-right: 33%;
+    border: solid black 2px;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#guida{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    padding: 1em;
+    font-weight: bold;
+    border: solid black 2px;
+}
